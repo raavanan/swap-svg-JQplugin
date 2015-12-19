@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQplugin to swap svg</title>
+    <style>
+      img{
+        margin:20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <img class="swap-svg" src="circlr.svg">
+    <swap class="swap-svg" src="BatmanHat.svg"></swap>
+
+    <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="swap-svg.js" charset="utf-8"></script>
+    <script>
+    $('.swap-svg').swapSvg();
+    </script>
+  </body>
+</html>
