@@ -30,10 +30,25 @@ now you can use your css selector to change colors, etc.
 
 #### Usage.
 
-just initiate the plugin.
+1. Add the scripts.
 
 ```
-$(".swap-svg").swapSvg();
+<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+<script src="swap-svg.js" charset="utf-8"></script>
+
+```
+2. Add a class to the images you wanna swap
+
+```
+<img class="swap-svg" id="myid" src="circle.svg" />
+<swap class="swap-svg" src="BatmanHat.svg"></swap>
+```
+yes, it works on any tag as long as it as a src attribute with svg file source.
+
+3. initiate the plugin.
+
+```
+$('.swap-svg').swapSvg();
 ```
 
 
