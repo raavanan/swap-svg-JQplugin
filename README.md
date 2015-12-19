@@ -1,2 +1,6 @@
-### svgSwap jquery plugin
-swap img with svg src with inline svg.
+
+### swap-svg-JQplugin
+
+ Jquery plugin to Swap Images with svg src with inline svg Elements.
+
+ 
