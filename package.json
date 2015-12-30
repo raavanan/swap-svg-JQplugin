@@ -1,0 +1,23 @@
+{
+  "name": "svg-swap-jq-plugin",
+  "version": "1.0.0",
+  "description": "svg img tags in DOM with src svg with actual svg files",
+  "main": "swap-svg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raavanan/swap-svg-JQplugin.git"
+  },
+  "keywords": [
+    "svg",
+    "image"
+  ],
+  "author": "Ganesh U <ganirockz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raavanan/swap-svg-JQplugin/issues"
+  },
+  "homepage": "https://github.com/raavanan/swap-svg-JQplugin#readme"
+}
