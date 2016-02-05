@@ -48,9 +48,9 @@ yes, it works on any tag as long as it as a src attribute with svg file source.
 3. initiate the plugin.
 
 ```
-$('.swap-svg').swapSvg();
+$('img.swap-svg').swapSvg();
 ```
 
-
+its important that you select a image tag with a class of swap-svg
 
  
